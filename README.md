@@ -14,7 +14,7 @@ Verifiche:
 
 # Pseudo-Codice
 
-## Reccolta info
+## Raccolta info
 
 - il programma chiede all'utente il numero di km che vuole percorrere;
 - il programma chiede all'utente l'età;
