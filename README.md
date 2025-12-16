@@ -22,11 +22,13 @@ Verifiche:
 ## Valori
 
 - il prezzo del biglietto è di 0.21 € al km;
-- va applicato uno sconto del 20% sotto i 18 anni;
-- va applicato uno sconto del 40% dai 65 anni in su;
 
 ## Elaborazione
 
-- SE (età < di 18 stampa totale biglietto under18);
-  - ALTRIMENTI SE (età >= 65 stampa totale biglietto over65)
-  - ALTRIMENTI (stampa totale biglietto)
+- SE (l'utente è under 18) applica sconto del 20%;
+  - ALTRIMENTI SE (l'utente è over 65) applica sconto del 40%;
+  - ALTRIMENTI applica il prezzo pieno;
+
+## Output
+
+- viene mostrato il prezzo del biglietto
