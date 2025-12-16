@@ -27,9 +27,6 @@ Verifiche:
 
 ## Elaborazione
 
-- totale biglietto = numero di km \* 0.21;
-- totale biglietto under18 = totale biglietto - 20%;
-- totale biglietto over65 = totale biglietto - 40%;
 - SE (età < di 18 stampa totale biglietto under18);
   - ALTRIMENTI SE (età >= 65 stampa totale biglietto over65)
   - ALTRIMENTI (stampa totale biglietto)
